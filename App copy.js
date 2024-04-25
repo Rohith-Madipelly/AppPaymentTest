@@ -8,10 +8,7 @@ const App = () => {
   const url = createURL('game', {})
   console.log(">>>", url, "redirectURL>", redirectURL)
   return (
-    // <Routes />
-    <View style={{display:'flex',justifyContent:'center',flex:1}}>
-      <Text>123 {redirectURL}</Text>
-    </View>
+    <Routes />
   )
 }
 
